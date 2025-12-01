@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1048715482472",
+    "project_id": "projeto-contatos-bd4f0",
+    "storage_bucket": "projeto-contatos-bd4f0.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1048715482472:android:ee604534aa0232e63332dd",
+        "android_client_info": {
+          "package_name": "com.projeto.contatos"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhQYl9XDyRSf7jIXkHezL_f7tuXtQkk-A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
