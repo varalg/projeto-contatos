@@ -5,7 +5,7 @@ import { IonicRouteStrategy, provideIonicAngular } from '@ionic/angular/standalo
 import { routes } from './app/app.routes';
 import { AppComponent } from './app/app.component';
 
-// 🔥 IMPORTS DO FIREBASE
+// IMPORTS DO FIREBASE
 import { provideFirebaseApp, initializeApp } from '@angular/fire/app';
 import { provideAuth, getAuth } from '@angular/fire/auth';
 import { provideDatabase, getDatabase } from '@angular/fire/database';
@@ -18,10 +18,10 @@ bootstrapApplication(AppComponent, {
     provideIonicAngular(),
     provideRouter(routes),
 
-    // 🔥 INICIALIZAÇÃO DO FIREBASE — ESSA PARTE É OBRIGATÓRIA
+    //  INICIALIZAÇÃO DO FIREBASE 
     provideFirebaseApp(() => initializeApp(firebaseConfig)),
 
-    // 🔥 AUTH E DATABASE (só funcionam depois do initializeApp)
+    // AUTH E DATABASE )
     provideAuth(() => getAuth()),
     provideDatabase(() => getDatabase()),
   ],
